@@ -16,7 +16,7 @@ export default function Home() {
 
       <main>
         {/* <TextyAnim className='text-4xl'>Hello Bandish</TextyAnim> */}
-        <h1 className='text-3xl tracking-wide font-bold uppercase p-8'>
+        <h1 className=' text-xl md:text-3xl tracking-wide font-bold uppercase p-8'>
           &#128075; Hello #Bandish. Our website very soon! &#128513;
         </h1>
       </main>
