@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <TextyAnim className=' z-10 text-2xl font-bold leading-snug tracking-tight bg-clip-text bg-gradient-to-r from-green-400 via-purple-500 to-pink-400 text-transparent lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-gray-50 drop-shadow-sm'>
-          Hello #Bandish
+        <TextyAnim className='z-10 text-2xl font-bold leading-snug tracking-tight text-black lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-gray-50 drop-shadow-sm'>
+          Hello Bandish
         </TextyAnim>
       </main>
       <footer></footer>
