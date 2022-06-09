@@ -92,7 +92,7 @@ export default function Layout({ children }) {
       </header>
       <div className='flex flex-col justify-between'>
         <main>{children}</main>
-        <footer className='text-sm md:text-2xl text-center py-2'>
+        <footer className='fixed w-full mx-auto bottom-0 text-sm md:text-2xl text-center py-2'>
           Copyright &copy; Bandit Boys NFT 2022
         </footer>
       </div>
