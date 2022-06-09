@@ -10,7 +10,7 @@ export default function Home() {
         </div>
         <div className='p-4 min-h-screen sticky top-0 flex flex-col items-center justify-center bg-stone-200'>
           <h2 className='text-4xl md:text-5xl lg:text-7xl mb-8'>OUR ROADMAP</h2>
-          <div className='flex md:w-9/12 space-x-2'>
+          <div className='flex md:w-11/12 space-x-5'>
             <div className='flex flex-col md:flex-row'>
               <div>
                 <h2 className='md:text-3xl mb-3 md:-ml-4'>Bandit DAO</h2>
@@ -33,9 +33,7 @@ export default function Home() {
                 <p className='text-sm leading-normal md:text-[18px] mb-3'>
                   Yes, you will be able to stake your Bandit Boy which will be
                   setup in the near future. You will be staking for a utility
-                  token that will be used for various different occasions. The
-                  utilities of this token will make staking your Bandit
-                  worthwhile.
+                  token that will be used for various different occasions.
                 </p>
               </div>
             </div>
