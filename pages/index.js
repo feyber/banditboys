@@ -14,10 +14,10 @@ export default function Home() {
             <div className='flex flex-col md:flex-row'>
               <div>
                 <h2 className='md:text-3xl mb-3 md:-ml-4'>Bandit DAO</h2>
-                <p className='text-sm leading-normal md:text-[18px] mb-2 md:-ml-4'>
+                {/* <p className='text-sm leading-normal md:text-[18px] mb-2 md:-ml-4'>
                   The Bandit DAO will be a firmly established DAO in the Solana
                   space.
-                </p>
+                </p> */}
                 <p className='text-sm leading-normal md:text-[18px] mb-3 md:-ml-4'>
                   Our DAO will consist of various programs intended to benefit
                   and look after our holders. Things such as holder raffles, WL
