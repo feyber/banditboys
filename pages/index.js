@@ -10,7 +10,7 @@ export default function Home() {
         </div>
         <div className='p-4 min-h-screen sticky top-0 flex flex-col items-center justify-center bg-stone-200'>
           <h2 className='text-4xl md:text-5xl lg:text-7xl mb-8'>OUR ROADMAP</h2>
-          <div className='flex md:w-11/12 space-x-5'>
+          <div className='flex md:w-11/12 space-x-2 md:space-x-5'>
             <div className='flex flex-col md:flex-row'>
               <div>
                 <h2 className='md:text-3xl mb-3 md:-ml-4'>Bandit DAO</h2>
