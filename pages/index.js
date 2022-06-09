@@ -14,11 +14,11 @@ export default function Home() {
             <div className='flex flex-col md:flex-row'>
               <div>
                 <h2 className='md:text-3xl mb-3 md:-ml-4'>Bandit DAO</h2>
-                <p className='text-sm leading-normal md:text-[18px] text-justify md:text-left mb-2 md:-ml-4'>
+                <p className='text-sm leading-normal md:text-[18px] mb-2 md:-ml-4'>
                   The Bandit DAO will be a firmly established DAO in the Solana
                   space.
                 </p>
-                <p className='text-sm leading-normal md:text-[18px] text-justify md:text-left mb-3 md:-ml-4'>
+                <p className='text-sm leading-normal md:text-[18px] mb-3 md:-ml-4'>
                   Our DAO will consist of various programs intended to benefit
                   and look after our holders. Things such as holder raffles, WL
                   collaborations with other projects, alpha discussions/calls
@@ -30,7 +30,7 @@ export default function Home() {
               </div>
               <div>
                 <h2 className='md:text-3xl mb-3'>Stacking</h2>
-                <p className='text-sm leading-normal md:text-[18px] text-justify md:text-left mb-3'>
+                <p className='text-sm leading-normal md:text-[18px] mb-3'>
                   Yes, you will be able to stake your Bandit Boy which will be
                   setup in the near future. You will be staking for a utility
                   token that will be used for various different occasions. The
@@ -43,7 +43,7 @@ export default function Home() {
             <div className='flex flex-col md:flex-row'>
               <div>
                 <h2 className='md:text-3xl mb-3'>The Neighborhood</h2>
-                <p className='text-sm leading-normal md:text-[18px] text-justify md:text-left mb-3'>
+                <p className='text-sm leading-normal md:text-[18px] mb-3'>
                   The Bandit Boys come from the neighborhood. Everyone will want
                   to join the neighborhood because it will foster one of the
                   greatest communities on Solana. Everyone who owns a Bandit is
@@ -56,7 +56,7 @@ export default function Home() {
                 <h2 className='md:text-3xl mb-3 md:ml-4'>
                   1/1 Bandit Auctions
                 </h2>
-                <p className='text-sm leading-normal md:text-[18px] text-justify md:text-left mb-2 md:ml-4'>
+                <p className='text-sm leading-normal md:text-[18px] mb-2 md:ml-4'>
                   There are no 1/1 Bandit Boys in the collection of the original
                   5000 Bandits. We will host auctions for 1/1 Legendary Bandits
                   and all proceeds will go directly back into the community.
