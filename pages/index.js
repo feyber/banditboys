@@ -17,13 +17,29 @@ import president from '../public/president.png'
 import tape from '../public/tape.png'
 import yoppa from '../public/yoppa.png'
 import nine from '../public/1928.png'
+import xanatos from '../public/xanatos.png'
+import kingjab from '../public/kingjab.png'
+import zaenmv from '../public/zaenmv.png'
 export default function Home() {
   return (
     <Layout>
       <div className='relative'>
         <div className='sticky top-0 min-h-screen flex flex-col items-center justify-center bg-gray-200'>
-          <h2 className='text-4xl md:text-5xl lg:text-7xl'>BANDIT BOYS DAO</h2>
-          <p>Pls Scroll Down...</p>
+          <h2 className='text-5xl md:text-6xl lg:text-7xl mb-2'>
+            BANDIT BOYS DAO
+          </h2>
+          <div className='flex space-x-3 items-center'>
+            <a
+              href='https://banditboysraffles.netlify.app/raffles/'
+              rel='noopener noreferrer'
+              target='_blank'
+              className='bg-red-200 py-1 px-4 rounded-lg tracking-wider'
+            >
+              Go to raffle page
+            </a>
+            <p>or</p>
+            <p className='tracking-wider'>Pls Scroll Down..</p>
+          </div>
         </div>
         <div className='-mt-10 p-4 min-h-screen sticky top-0 flex flex-col items-center justify-center bg-stone-200'>
           <h2 className='text-4xl md:text-5xl lg:text-7xl mb-8'>OUR ROADMAP</h2>
@@ -175,9 +191,9 @@ export default function Home() {
         <div className='sticky top-0 min-h-screen flex flex-col items-center justify-center bg-neutral-200'>
           <h2 className='text-4xl md:text-5xl lg:text-7xl'>WEB3 TEAM</h2>
           <div className='grid-cols-2 grid md:grid-cols-4 md:p-0 w-11/12'>
-            <div className='flex p-4 ml-5 md:p-10'>
+            <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
-                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
+                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-red-700 to-red-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
                     <div className='rounded-full bg-transparent w-16 sm:w-18 md:w-28 overflow-auto'>
                       <Image
@@ -200,9 +216,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='flex p-4 ml-5 md:p-10'>
+            <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
-                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
+                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-green-600 to-green-700 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
                     <div className='rounded-full bg-transparent w-16 sm:w-18 md:w-28 overflow-auto'>
                       <Image
@@ -225,9 +241,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='flex p-4 ml-5 md:p-10'>
+            <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
-                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
+                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-green-600 to-green-700 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
                     <div className='rounded-full bg-transparent w-16 sm:w-18 md:w-28 overflow-auto'>
                       <Image
@@ -250,7 +266,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='flex p-4 ml-5 md:p-10'>
+            <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
                 <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
@@ -275,7 +291,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='flex p-4 ml-5 md:p-10'>
+            <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
                 <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
@@ -300,7 +316,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='flex p-4 ml-5 md:p-10'>
+            <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
                 <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
@@ -325,7 +341,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='flex p-4 ml-5 md:p-10'>
+            <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
                 <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-24 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
@@ -344,13 +360,13 @@ export default function Home() {
                       Mantha
                     </label>
                     <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
-                      Mod
+                      Night Mod
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className='flex p-4 ml-5 md:p-10'>
+            <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
                 <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
@@ -367,6 +383,81 @@ export default function Home() {
                   <div className='flex flex-col space-y-2 md:space-y-4'>
                     <label className='absolute text-gray-100 text-md text-start text-xs md:text-2xl top-2 md:top-5 left-8 sm:left-14'>
                       Tape the ghost
+                    </label>
+                    <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
+                      Mod
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='flex p-4 ml-5 md:p-6'>
+              <div className='w-full flex items-center justify-center bg-transparent'>
+                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
+                  <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
+                    <div className='rounded-full bg-transparent w-16 sm:w-18 md:w-28 overflow-auto'>
+                      <Image
+                        src={zaenmv}
+                        alt='Picture of the author'
+                        width={200}
+                        height={200}
+                        className='drop-shadow-sm scale-95 hover:scale-100 duration-700'
+                      />
+                    </div>
+                  </div>
+                  <div className='flex flex-col space-y-2 md:space-y-4'>
+                    <label className='absolute text-gray-100 text-md text-start text-xs md:text-2xl top-2 md:top-5 left-8 sm:left-14'>
+                      zaenmv
+                    </label>
+                    <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
+                      Night Mod
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='flex p-4 ml-5 md:p-6'>
+              <div className='w-full flex items-center justify-center bg-transparent'>
+                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
+                  <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
+                    <div className='rounded-full bg-transparent w-16 sm:w-18 md:w-28 overflow-auto'>
+                      <Image
+                        src={xanatos}
+                        alt='Picture of the author'
+                        width={200}
+                        height={200}
+                        className='drop-shadow-sm scale-95 hover:scale-100 duration-700'
+                      />
+                    </div>
+                  </div>
+                  <div className='flex flex-col space-y-2 md:space-y-4'>
+                    <label className='absolute text-gray-100 text-md text-start text-xs md:text-2xl top-2 md:top-5 left-8 sm:left-14'>
+                      Xanatos
+                    </label>
+                    <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
+                      Mod
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='flex p-4 ml-5 md:p-6'>
+              <div className='w-full flex items-center justify-center bg-transparent'>
+                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
+                  <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
+                    <div className='rounded-full bg-transparent w-16 sm:w-18 md:w-28 overflow-auto'>
+                      <Image
+                        src={kingjab}
+                        alt='Picture of the author'
+                        width={200}
+                        height={200}
+                        className='drop-shadow-sm scale-95 hover:scale-100 duration-700'
+                      />
+                    </div>
+                  </div>
+                  <div className='flex flex-col space-y-2 md:space-y-4'>
+                    <label className='absolute text-gray-100 text-md text-start text-xs md:text-2xl top-2 md:top-5 left-8 sm:left-14'>
+                      Kingjab
                     </label>
                     <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
                       Mod

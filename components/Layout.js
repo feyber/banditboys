@@ -31,7 +31,11 @@ export default function Layout({ children }) {
             />
           </div>
           <div className='flex py-2 md:py-6 scale-75 md:scale-100 space-x-2 md:space-x-2'>
-            <a href='https://www.magiceden.io/marketplace/bandit_boys'>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              href='https://www.magiceden.io/marketplace/bandit_boys'
+            >
               <Image
                 src={magiceden}
                 alt='Picture of the author'
@@ -40,7 +44,11 @@ export default function Layout({ children }) {
                 className='drop-shadow-sm rounded shadow-lg'
               />
             </a>
-            <a href='https://opensea.io/collection/bandit-boys-solana'>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              href='https://opensea.io/collection/bandit-boys-solana'
+            >
               <Image
                 src={opensea}
                 alt='Picture of the author'
@@ -50,7 +58,11 @@ export default function Layout({ children }) {
               />
             </a>
 
-            <a href='https://www.discord.gg/npuf3zk2uV'>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              href='https://www.discord.gg/npuf3zk2uV'
+            >
               <Image
                 src={discord}
                 alt='Picture of the author'
@@ -59,7 +71,11 @@ export default function Layout({ children }) {
                 className='drop-shadow-sm rounded shadow-lg'
               />
             </a>
-            <a href='https://www.twitter.com/BanditBoysDAO'>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              href='https://www.twitter.com/BanditBoysDAO'
+            >
               <Image
                 src={twitter}
                 alt='Picture of the author'
@@ -69,7 +85,11 @@ export default function Layout({ children }) {
               />
             </a>
 
-            <a href='https://diamondvaults.io/vault/BanditBoys'>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              href='https://diamondvaults.io/vault/BanditBoys'
+            >
               <Image
                 src={staking}
                 alt='Picture of the author'
@@ -78,7 +98,11 @@ export default function Layout({ children }) {
                 className='drop-shadow-sm rounded'
               />
             </a>
-            <a href='https://howrare.is/banditboys'>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              href='https://howrare.is/banditboys'
+            >
               <Image
                 src={rare}
                 alt='Picture of the author'
