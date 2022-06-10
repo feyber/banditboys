@@ -62,7 +62,7 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h2 className='md:text-3xl mb-3'>Stacking</h2>
+                <h2 className='md:text-3xl mb-3'>Staking</h2>
                 <p className='text-sm leading-normal md:text-[18px] mb-3'>
                   Yes, you will be able to stake your Bandit Boy which will be
                   setup in the near future. You will be staking for a utility
@@ -235,7 +235,7 @@ export default function Home() {
                       Patrick C
                     </label>
                     <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
-                      Investor / Goblin
+                      Goblin Advisor
                     </p>
                   </div>
                 </div>
