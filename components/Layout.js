@@ -37,7 +37,7 @@ export default function Layout({ children }) {
                 alt='Picture of the author'
                 width={35}
                 height={35}
-                className='drop-shadow-sm'
+                className='drop-shadow-sm rounded shadow-lg'
               />
             </a>
             <a href='https://opensea.io/collection/bandit-boys-solana'>
@@ -46,7 +46,7 @@ export default function Layout({ children }) {
                 alt='Picture of the author'
                 width={35}
                 height={35}
-                className='drop-shadow-sm'
+                className='drop-shadow-sm rounded shadow-lg'
               />
             </a>
 
@@ -56,7 +56,7 @@ export default function Layout({ children }) {
                 alt='Picture of the author'
                 width={35}
                 height={35}
-                className='drop-shadow-sm'
+                className='drop-shadow-sm rounded shadow-lg'
               />
             </a>
             <a href='https://www.twitter.com/BanditBoysDAO'>
@@ -65,7 +65,7 @@ export default function Layout({ children }) {
                 alt='Picture of the author'
                 width={35}
                 height={35}
-                className='drop-shadow-sm'
+                className='drop-shadow-sm rounded shadow-lg'
               />
             </a>
 
@@ -75,7 +75,7 @@ export default function Layout({ children }) {
                 alt='Picture of the author'
                 width={35}
                 height={35}
-                className='drop-shadow-sm'
+                className='drop-shadow-sm rounded'
               />
             </a>
             <a href='https://howrare.is/banditboys'>
@@ -84,7 +84,7 @@ export default function Layout({ children }) {
                 alt='Picture of the author'
                 width={35}
                 height={35}
-                className='drop-shadow-sm'
+                className='drop-shadow-sm rounded shadow-lg'
               />
             </a>
           </div>
