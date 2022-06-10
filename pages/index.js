@@ -153,19 +153,19 @@ export default function Home() {
               </div>
             </div>
             <div className='grid grid-cols-2 items-center justify-center gap-2 md:gap-4 mt-2 md:-mt-4'>
-              <button className='w-44 md:w-72 h-24 md:h-44 bg-gray-400 hover:scale-105 duration-500 hover:bg-gray-300 text-gray-900 font-bold py-2 px-4 border-b-4 border-gray-500 hover:border-gray-400 rounded'>
+              <button className='w-40 md:w-72 h-24 md:h-44 bg-gray-400 hover:scale-105 duration-500 hover:bg-gray-300 text-gray-900 font-bold py-2 px-4 border-b-4 border-gray-500 hover:border-gray-400 rounded'>
                 <p className='md:text-3xl'>SUPPLY</p>
                 <p className='md:text-3xl'>5000 BANDITS</p>
               </button>
-              <button className='w-44 md:w-72 h-24 md:h-44 bg-gray-400 hover:scale-105 duration-500 hover:bg-gray-300 text-gray-900 font-bold py-2 px-4 border-b-4 border-gray-500 hover:border-gray-400 rounded'>
+              <button className='w-40 md:w-72 h-24 md:h-44 bg-gray-400 hover:scale-105 duration-500 hover:bg-gray-300 text-gray-900 font-bold py-2 px-4 border-b-4 border-gray-500 hover:border-gray-400 rounded'>
                 <p className='md:text-3xl'>RELEASED</p>
                 <p className='md:text-3xl'>JUNE, 3 2022</p>
               </button>
-              <button className='w-44 md:w-72 h-24 md:h-44 bg-gray-400 hover:scale-105 duration-500 hover:bg-gray-300 text-gray-900 font-bold py-2 px-4 border-b-4 border-gray-500 hover:border-gray-400 rounded'>
+              <button className='w-40 md:w-72 h-24 md:h-44 bg-gray-400 hover:scale-105 duration-500 hover:bg-gray-300 text-gray-900 font-bold py-2 px-4 border-b-4 border-gray-500 hover:border-gray-400 rounded'>
                 <p className='md:text-3xl'>Price 0.025◎</p>
                 <p className='md:text-3xl'>SOLD OUT</p>
               </button>
-              <button className='w-44 md:w-72 h-24 md:h-44 bg-gray-400 hover:scale-105 duration-500 hover:bg-gray-300 text-gray-900 font-bold py-2 px-4 border-b-4 border-gray-500 hover:border-gray-400 rounded'>
+              <button className='w-40 md:w-72 h-24 md:h-44 bg-gray-400 hover:scale-105 duration-500 hover:bg-gray-300 text-gray-900 font-bold py-2 px-4 border-b-4 border-gray-500 hover:border-gray-400 rounded'>
                 <p className='md:text-3xl'>1500+</p>
                 <p className='md:text-3xl'>STAKED IN VAULT</p>
               </button>
@@ -174,7 +174,7 @@ export default function Home() {
         </div>
         <div className='sticky top-0 min-h-screen flex flex-col items-center justify-center bg-neutral-200'>
           <h2 className='text-4xl md:text-5xl lg:text-7xl'>WEB3 TEAM</h2>
-          <div className='grid-cols-2 grid md:grid-cols-4 p-4 md:p-0 w-11/12'>
+          <div className='grid-cols-2 grid md:grid-cols-4 md:p-0 w-11/12'>
             <div className='flex p-4 ml-5 md:p-10'>
               <div className='w-full flex items-center justify-center bg-transparent'>
                 <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-purple-700 to-purple-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
