@@ -457,7 +457,7 @@ export default function Home() {
                   </div>
                   <div className='flex flex-col space-y-2 md:space-y-4'>
                     <label className='absolute text-gray-100 text-md text-start text-xs md:text-2xl top-2 md:top-5 left-8 sm:left-14'>
-                      Kingjab
+                      KingJab
                     </label>
                     <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
                       Mod
