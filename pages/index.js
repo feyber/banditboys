@@ -30,7 +30,8 @@ export default function Home() {
           </h2>
           <div className='flex space-x-3 items-center'>
             <a
-              href='https://banditboysraffles.netlify.app/raffles/'
+              // href='https://banditboysraffles.netlify.app/raffles/'
+              href='/'
               rel='noopener noreferrer'
               target='_blank'
               className='bg-red-200 py-1 px-4 rounded-lg tracking-wider'
