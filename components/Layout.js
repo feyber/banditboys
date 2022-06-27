@@ -12,7 +12,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Bandit Boys DAO - NFT</title>
+        <title>Bandit Boys - We Bring The Best Dao into Solana Ecosystem</title>
         <meta
           name='description'
           content='LFG! We Create Best DAO in Solana Network '
