@@ -9,15 +9,15 @@ import enam from '../public/3296.png'
 import tujuh from '../public/4742.png'
 import lapan from '../public/4557.png'
 import alpha from '../public/alpha.png'
-import fugazi from '../public/fugazi.png'
+import fugazi from '../public/patrik.png'
 import mantha from '../public/mantha.png'
 import oawzz from '../public/oawzz.png'
 import patrick from '../public/patrick.png'
 import president from '../public/president.png'
 import tape from '../public/tape.png'
-import yoppa from '../public/yoppa.png'
+import yoppa from '../public/imkaotik.png'
 import nine from '../public/1928.png'
-import xanatos from '../public/xanatos.png'
+import xanatos from '../public/xan.png'
 import kingjab from '../public/kingjab.png'
 import zaenmv from '../public/zaenmv.png'
 export default function Home() {
@@ -30,15 +30,15 @@ export default function Home() {
           </h2>
           <div className='flex space-x-3 items-center'>
             <a
-              // href='https://banditboysraffles.netlify.app/raffles/'
-              href='/'
+              href='https://diamondvaults.io/vault/BanditBoys'
               rel='noopener noreferrer'
               target='_blank'
               className='bg-red-200 py-1 px-4 rounded-lg tracking-wider'
             >
-              Go to raffle page
+              Go to staking page
             </a>
             <p>or</p>
+
             <p className='tracking-wider'>Pls Scroll Down..</p>
           </div>
         </div>
@@ -194,7 +194,7 @@ export default function Home() {
           <div className='grid-cols-2 grid md:grid-cols-4 md:p-0 w-11/12'>
             <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
-                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-red-700 to-red-900 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
+                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-litegold via-golden to-gold rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
                     <div className='rounded-full bg-transparent w-16 sm:w-18 md:w-28 overflow-auto'>
                       <Image
@@ -207,11 +207,11 @@ export default function Home() {
                     </div>
                   </div>
                   <div className='flex flex-col space-y-2 md:space-y-4'>
-                    <label className='absolute text-gray-100 text-md text-start text-sm md:text-2xl top-2 md:top-5 left-8 sm:left-14'>
-                      Yoppa
+                    <label className='absolute text-gray-900 text-md text-start text-sm md:text-2xl top-2 md:top-5 left-8 sm:left-14'>
+                      IMKAOTIK
                     </label>
-                    <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
-                      King Bandit
+                    <p className='absolute text-gray-900 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
+                      Comm Buildooorrr
                     </p>
                   </div>
                 </div>
@@ -219,7 +219,7 @@ export default function Home() {
             </div>
             <div className='flex p-4 ml-5 md:p-6'>
               <div className='w-full flex items-center justify-center bg-transparent'>
-                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-green-600 to-green-700 rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
+                <div className='relative w-48 md:w-52 h-12 sm:h-12 md:h-24 bg-gradient-to-r from-litegold via-golden to-gold rounded-md pt-4 pb-8 px-4 shadow-md hover:shadow-lg transition flex flex-col items-center'>
                   <div className='absolute rounded-full bg-transparent w-16 md:w-24 md:h-20 md:p-2 z-10 -top-2 md:-top-4 -left-9 md:-left-20 transition '>
                     <div className='rounded-full bg-transparent w-16 sm:w-18 md:w-28 overflow-auto'>
                       <Image
@@ -232,10 +232,10 @@ export default function Home() {
                     </div>
                   </div>
                   <div className='flex flex-col space-y-2 md:space-y-4'>
-                    <label className='absolute text-gray-100 text-md text-start text-sm md:text-2xl top-2 md:top-5 left-8 sm:left-14'>
+                    <label className='absolute text-gray-900 text-md text-start text-sm md:text-2xl drop-shadow top-2 md:top-5 left-8 sm:left-14'>
                       Patrick C
                     </label>
-                    <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
+                    <p className='absolute text-gray-900 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
                       Goblin Advisor
                     </p>
                   </div>
@@ -308,10 +308,10 @@ export default function Home() {
                   </div>
                   <div className='flex flex-col space-y-2 md:space-y-4'>
                     <label className='absolute text-gray-100 text-md text-start text-sm md:text-2xl top-2 md:top-5 left-8 sm:left-14'>
-                      fugazi.sol
+                      -Patrik-
                     </label>
                     <p className='absolute text-gray-200 text-sm mt-1 top-4 md:top-7 leading-relaxed left-8 sm:left-14 md:text-xl'>
-                      Mod
+                      Mod / 3D Artist
                     </p>
                   </div>
                 </div>
