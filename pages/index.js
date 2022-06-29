@@ -30,12 +30,12 @@ export default function Home() {
           </h2>
           <div className='flex space-x-3 items-center'>
             <a
-              href='https://diamondvaults.io/vault/BanditBoys'
+              href='https://raffle-banditboys.vercel.app'
               rel='noopener noreferrer'
               target='_blank'
               className='bg-red-200 py-1 px-4 rounded-lg tracking-wider'
             >
-              Go to staking page
+              Go to raffle page
             </a>
             <p>or</p>
 
